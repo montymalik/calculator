@@ -1,0 +1,40 @@
+body {
+    height: 100vh;
+}
+
+.main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator-container {
+    height: 600px;
+    width: 400px;
+    border: solid 10px black;
+}
+
+.lcd-screen {
+    display: block;
+    height: 100px;
+    width: 100%;
+    background-color: gray;
+    font-size: 48px;
+}
+
+.keys-container {
+    height: 500px;
+    width: 400px;
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    background-color: black;
+}
+
+.key {
+    background-color: green;
+    border: solid 1px black;
+    border-radius: 10px;
+    font-size: 48px;
+    text-align: center;
+}
